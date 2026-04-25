@@ -61,22 +61,23 @@ export const PROJECTS: Project[] = [
     outcome:
       "Higher Google rankings and consistent inbound customer inquiries.",
   },
+
   {
-    slug: "nova-dental-seo",
-    title: "Nova Dental Clinic",
-    category: "Local SEO",
-    year: "2025",
-    cover:
-      "https://images.unsplash.com/photo-1606811841689-23dfddce3a1c?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Local SEO growth for dental clinic",
-    stack: ["Local SEO", "Google Maps SEO", "Content Strategy", "Analytics"],
-    problem:
-      "Clinic was not appearing in top local search results for high-value dental services.",
-    solution:
-      "Optimized service pages, improved Google Maps ranking, and built local citations across directories.",
-    outcome:
-      "Top 3 rankings for primary keywords and consistent patient bookings.",
-  },
+  slug: "nova-dental-seo",
+  title: "Nova Dental Clinic",
+  category: "Local SEO",
+  year: "2025",
+  cover:
+    "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1600&q=80",
+  tagline: "Local SEO growth for dental clinic",
+  stack: ["Local SEO", "Google Maps SEO", "Content Strategy", "Analytics"],
+  problem:
+    "Clinic was not appearing in top local search results for high-value dental services.",
+  solution:
+    "Optimized service pages, improved Google Maps ranking, and built local citations across directories.",
+  outcome:
+    "Top 3 rankings for primary keywords and consistent patient bookings.",
+},
   {
     slug: "elite-law-seo",
     title: "Elite Law Firm",
