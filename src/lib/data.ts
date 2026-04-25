@@ -18,45 +18,96 @@ export const PROJECTS: Project[] = [
     title: "Ash & Co Interiors",
     category: "Local SEO",
     year: "2024",
-    cover: "/projects/ashco.jpg",
+    cover:
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=80",
     tagline: "Local SEO & website optimization for interior design brand",
     stack: ["Local SEO", "On-Page SEO", "WordPress", "Content Strategy"],
     problem:
       "The business had low visibility on Google and was not generating consistent leads from organic search.",
     solution:
-      "Developed a high-converting WordPress website, optimized service pages with targeted keywords, and implemented local SEO strategies across multiple cities.",
+      "Built a high-converting WordPress site, optimized service pages with targeted keywords, and implemented multi-city local SEO strategy.",
     outcome:
-      "Improved rankings, increased organic traffic, and generated consistent client inquiries.",
+      "Improved Google rankings, increased organic traffic, and generated consistent client inquiries.",
   },
   {
     slug: "strella-pa",
     title: "Strella PA",
     category: "Technical + Local SEO",
     year: "2024",
-    cover: "/projects/strella.jpg",
-    tagline: "SEO audit & local ranking improvement for cosmetic services",
+    cover:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80",
+    tagline: "SEO audit & ranking optimization for cosmetic clinic",
     stack: ["SEO Audit", "Technical SEO", "GMB Optimization", "Lead Generation"],
     problem:
-      "Website had technical SEO issues, poor local visibility, and low conversion rates.",
+      "Website had technical SEO issues, weak local presence, and poor conversion rates.",
     solution:
-      "Performed full SEO audit, fixed technical issues, optimized Google Business Profile, and improved content structure.",
+      "Performed full technical audit, fixed indexing issues, optimized Google Business Profile, and improved content structure.",
     outcome:
-      "Increased local visibility, better rankings, and improved lead generation.",
+      "Significant boost in local rankings and steady increase in qualified leads.",
   },
   {
     slug: "imove-alabama",
     title: "iMove Alabama",
     category: "Local SEO",
     year: "2024",
-    cover: "/projects/imove.jpg",
+    cover:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
     tagline: "Local SEO strategy for moving company",
     stack: ["Keyword Research", "On-Page SEO", "Local Pages", "WordPress"],
     problem:
-      "Highly competitive niche with low rankings and minimal online presence.",
+      "Highly competitive moving niche with almost no organic visibility.",
     solution:
-      "Created optimized landing pages targeting local keywords and improved site speed and mobile performance.",
+      "Created location-based landing pages, improved site structure, and optimized for high-intent local keywords.",
     outcome:
-      "Higher rankings, increased traffic, and more customer inquiries.",
+      "Higher Google rankings and consistent inbound customer inquiries.",
+  },
+  {
+    slug: "nova-dental-seo",
+    title: "Nova Dental Clinic",
+    category: "Local SEO",
+    year: "2025",
+    cover:
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3a1c?auto=format&fit=crop&w=1600&q=80",
+    tagline: "Local SEO growth for dental clinic",
+    stack: ["Local SEO", "Google Maps SEO", "Content Strategy", "Analytics"],
+    problem:
+      "Clinic was not appearing in top local search results for high-value dental services.",
+    solution:
+      "Optimized service pages, improved Google Maps ranking, and built local citations across directories.",
+    outcome:
+      "Top 3 rankings for primary keywords and consistent patient bookings.",
+  },
+  {
+    slug: "elite-law-seo",
+    title: "Elite Law Firm",
+    category: "SEO Strategy",
+    year: "2025",
+    cover:
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=80",
+    tagline: "SEO strategy for legal firm growth",
+    stack: ["SEO Strategy", "Content Marketing", "Technical SEO", "Link Building"],
+    problem:
+      "Law firm struggled with organic traffic and high competition in legal niche.",
+    solution:
+      "Built authority-focused content strategy, optimized practice area pages, and executed targeted backlink campaigns.",
+    outcome:
+      "Doubled organic traffic and improved keyword rankings across competitive terms.",
+  },
+  {
+    slug: "bright-smiles-seo",
+    title: "Bright Smiles Dental",
+    category: "Local SEO",
+    year: "2025",
+    cover:
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1600&q=80",
+    tagline: "SEO & lead generation for dental practice",
+    stack: ["Local SEO", "On-Page SEO", "Conversion Optimization", "GMB"],
+    problem:
+      "Low visibility in local search results and weak online lead generation.",
+    solution:
+      "Optimized website structure, improved local SEO signals, and enhanced call-to-action flow for conversions.",
+    outcome:
+      "Steady growth in organic traffic and increased appointment bookings.",
   },
 ];
 
