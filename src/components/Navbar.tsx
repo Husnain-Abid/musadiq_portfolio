@@ -44,9 +44,9 @@ export function Navbar() {
           data-testid="nav-logo"
         >
           <span className="inline-flex h-7 w-7 items-center justify-center rounded-md bg-primary/15 text-primary text-sm">
-            AA
+            MN
           </span>
-          <span className="hidden sm:inline text-sm">Armash Ata</span>
+       <span className="hidden sm:inline text-sm">Musadiq Nawaz</span>
         </button>
 
         <nav className="hidden md:flex items-center gap-1">

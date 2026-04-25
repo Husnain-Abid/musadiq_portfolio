@@ -7,12 +7,13 @@ export function Footer() {
         <div className="flex flex-col gap-10 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="font-display text-4xl md:text-6xl font-extrabold tracking-tight">
-              Let's make something{" "}
-              <span className="text-primary text-glow">unforgettable.</span>
+
+              Let’s grow your business with{" "}
+              <span className="text-primary text-glow">powerful SEO.</span>
+
             </div>
             <p className="mt-4 max-w-xl text-sm text-muted-foreground">
-              Currently booking Q3 2026 engagements for a small number of US-based
-              founders and agencies.
+              Currently accepting SEO projects for businesses looking to increase rankings, organic traffic, and qualified leads through proven SEO strategies.
             </p>
           </div>
           <a
@@ -26,12 +27,16 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-white/5 pt-8 text-xs text-muted-foreground md:flex-row md:items-center md:justify-between">
-          <div>© {new Date().getFullYear()} Armash Ata. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Musadiq Nawaz. All rights reserved.</div>
+
+
+
+
           <div className="flex items-center gap-5">
             <a href="#top" className="hover:text-foreground transition-colors">
               Back to top
             </a>
-            <span>Built in Karachi · Shipped to the world</span>
+            <span>SEO Expert based in Pakistan · Serving global clients</span>
           </div>
         </div>
       </div>

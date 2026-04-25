@@ -6,12 +6,14 @@ import { SKILLS } from "@/lib/data";
 
 gsap.registerPlugin(ScrollTrigger);
 
+
 const STATS = [
-  { label: "Years building products", to: 7, suffix: "+" },
-  { label: "Clients shipped for", to: 42, suffix: "+" },
-  { label: "Audited contracts deployed", to: 31, suffix: "" },
-  { label: "Avg. lighthouse score", to: 98, suffix: "" },
+  { label: "Projects Completed", to: 55, suffix: "+" },
+  { label: "Client Satisfaction", to: 98, suffix: "%" },
+  { label: "Cities Covered", to: 50, suffix: "+" },
+  { label: "Years Experience", to: 1, suffix: "+" },
 ];
+
 
 function Counter({ to, suffix }: { to: number; suffix: string }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -63,10 +65,11 @@ export function About() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-16 lg:grid-cols-12">
           <div className="lg:col-span-7">
+
             <SectionHeading
               eyebrow="About"
-              title="Senior engineer. Founder ally. Quietly relentless."
-              description="I'm Armash — a US-focused full-stack & blockchain developer who's spent the last seven years partnering with venture-backed founders, design-led agencies and growth-stage product teams. I write the contracts, ship the frontend, hire the team if you need one, and stay until the launch is live and stable."
+              title="SEO Strategist. Growth Partner. Results-Driven."
+              description="I'm Musadiq Nawaz — an SEO Expert & Semantic SEO Specialist helping businesses grow through data-driven search strategies. I specialize in On-Page, Technical, and Local SEO to increase visibility, drive qualified traffic, and generate consistent leads. My focus is not just rankings, but real business growth and long-term ROI."
             />
             <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
               {STATS.map((s) => (
@@ -90,10 +93,10 @@ export function About() {
                 </div>
                 <ul className="mt-5 space-y-4 text-sm text-foreground/90 leading-relaxed">
                   {[
-                    "Direct line to a senior engineer — no account managers, no handoffs.",
-                    "Weekly Loom + a live demo every Friday. You always know what's shipping.",
-                    "Code you actually own. Documented, typed, and ready for your next hire.",
-                    "Audit-ready Solidity, accessibility-clean React, and infra you won't dread.",
+                    "Custom SEO strategies tailored to your business goals and competitors.",
+                    "Transparent monthly reporting with clear ranking, traffic, and lead insights.",
+                    "White-hat SEO techniques aligned with Google’s latest algorithm updates.",
+                    "Continuous optimization focused on long-term growth and ROI, not short-term spikes.",
                   ].map((line) => (
                     <li key={line} className="flex gap-3">
                       <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary glow-blue" />
@@ -104,10 +107,10 @@ export function About() {
               </div>
               <div className="mt-8 flex items-center gap-3 text-xs text-muted-foreground">
                 <span className="inline-flex h-9 items-center rounded-full glass px-3">
-                  Karachi · Working USA hours
+                  Pakistan · Serving Global Clients
                 </span>
                 <span className="inline-flex h-9 items-center rounded-full glass px-3">
-                  EST / PST friendly
+                  Local & International SEO
                 </span>
               </div>
             </div>
@@ -116,8 +119,7 @@ export function About() {
 
         <div className="mt-20">
           <div className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
-            Stack I build with
-          </div>
+            SEO Tools & Expertise          </div>
           <div
             ref={stripRef}
             className="mt-6 relative overflow-hidden mask-marquee"

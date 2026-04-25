@@ -41,9 +41,9 @@ export function Contact() {
 
   const update =
     (k: keyof FormState) =>
-    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-      setForm((f) => ({ ...f, [k]: e.target.value }));
-    };
+      (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+        setForm((f) => ({ ...f, [k]: e.target.value }));
+      };
 
   return (
     <section id="contact" className="relative py-16 md:py-20">
@@ -51,11 +51,11 @@ export function Contact() {
         <div className="grid gap-14 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <SectionHeading
-              eyebrow="Let's build"
-              title="Have a project in mind? Let's make it real."
-              description="The fastest way to start is a 20-minute intro call. Tell me about the problem, the timeline, and the bar — I'll come back within 24 hours with a clear path forward."
+              eyebrow="Get Free SEO Strategy"
+              title="Want more traffic, leads & rankings? Let’s grow your business."
+              description="Tell me about your business, current challenges, and goals. I’ll analyze your website and get back to you within 24 hours with a clear SEO strategy to improve rankings, traffic, and conversions."
             />
-            
+
             {/* <div className="mt-10 space-y-3">
               {[
                 { icon: Mail, label: "armash@armashata.dev", href: "mailto:armash@armashata.dev" },
@@ -103,9 +103,9 @@ export function Contact() {
                   </div>
                   <h3 className="mt-6 font-display text-2xl font-bold">Message received.</h3>
                   <p className="mt-3 max-w-md text-sm text-muted-foreground leading-relaxed">
-                    Thanks {form.name.split(" ")[0]}. I'll be back in your inbox within 24 hours
-                    with a clear next step.
-                  </p>
+  Thanks {form.name.split(" ")[0]}. I’ll review your website and send you a
+  personalized SEO strategy within 24 hours.
+</p>
                 </div>
               ) : (
                 <form onSubmit={onSubmit} className="relative space-y-5" data-testid="contact-form">
@@ -142,11 +142,11 @@ export function Contact() {
                       className="mt-2 w-full rounded-2xl bg-white/[0.03] border border-white/10 px-4 py-3 text-sm text-foreground focus:outline-none focus:border-primary/50 focus:ring-2 focus:ring-primary/20 transition"
                       data-testid="input-budget"
                     >
-                      <option value="">Select a range</option>
-                      <option>Under $10k</option>
-                      <option>$10k – $25k</option>
-                      <option>$25k – $75k</option>
-                      <option>$75k+</option>
+                      <option value="">Select your monthly SEO budget</option>
+<option>Under $500</option>
+<option>$500 – $1,000</option>
+<option>$1,000 – $3,000</option>
+<option>$3,000+</option>
                     </select>
                   </div>
                   <div>
@@ -161,12 +161,11 @@ export function Contact() {
                       rows={5}
                       value={form.message}
                       onChange={update("message")}
-                      placeholder="What are you building, and what does success look like in 90 days?"
-                      className={`mt-2 w-full rounded-2xl bg-white/[0.03] border px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/20 transition resize-none ${
-                        errors.message
+                      placeholder="Tell me about your business, current SEO issues, and goals (e.g., more traffic, leads, or local rankings)..."
+                      className={`mt-2 w-full rounded-2xl bg-white/[0.03] border px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/20 transition resize-none ${errors.message
                           ? "border-destructive/60 focus:border-destructive"
                           : "border-white/10 focus:border-primary/50"
-                      }`}
+                        }`}
                       data-testid="input-message"
                     />
                     {errors.message ? (
@@ -175,8 +174,8 @@ export function Contact() {
                   </div>
                   <div className="flex items-center justify-between gap-4 pt-2">
                     <p className="text-xs text-muted-foreground">
-                      I reply within 24 hours, EST/PST.
-                    </p>
+  I reply within 24 hours with a clear SEO action plan.
+</p>
                     <MagneticButton
                       onClick={() => {
                         const f = document.querySelector(
@@ -229,9 +228,8 @@ function Field({
         value={value}
         onChange={onChange}
         placeholder={placeholder}
-        className={`mt-2 w-full rounded-2xl bg-white/[0.03] border px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/20 transition ${
-          error ? "border-destructive/60 focus:border-destructive" : "border-white/10 focus:border-primary/50"
-        }`}
+        className={`mt-2 w-full rounded-2xl bg-white/[0.03] border px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/20 transition ${error ? "border-destructive/60 focus:border-destructive" : "border-white/10 focus:border-primary/50"
+          }`}
         data-testid={`input-${id}`}
       />
       {error ? <p className="mt-1.5 text-xs text-destructive">{error}</p> : null}

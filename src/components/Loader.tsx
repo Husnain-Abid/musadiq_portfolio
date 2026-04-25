@@ -53,7 +53,7 @@ export function Loader() {
         ref={wordRef}
         className="relative font-display text-5xl md:text-7xl font-extrabold tracking-tight"
       >
-        {"ARMASH.ATA".split("").map((c, i) => (
+        {"MUSADIQ.SEO".split("").map((c, i) => (
           <span
             key={i}
             className={`inline-block ${c === "." ? "text-primary text-glow" : ""}`}

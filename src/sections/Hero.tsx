@@ -39,7 +39,7 @@ export function Hero() {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  const headline = ["Building", "Scalable", "Web", "&", "Blockchain", "Solutions"];
+  const headline = ["Driving", "Organic", "Growth", "with", "Semantic", "SEO"];
 
   return (
     <section
@@ -68,7 +68,7 @@ export function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-60" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
           </span>
-          Available for select Q3 engagements
+          Available for SEO Projects & Business Growth
         </div>
 
         <h1
@@ -82,9 +82,8 @@ export function Hero() {
               className="inline-block overflow-hidden align-baseline pr-[0.25em]"
             >
               <span
-                className={`word inline-block ${
-                  w === "Blockchain" ? "text-primary text-glow" : ""
-                }`}
+                className={`word inline-block ${w === "Blockchain" ? "text-primary text-glow" : ""
+                  }`}
               >
                 {w}
               </span>
@@ -97,9 +96,10 @@ export function Hero() {
           className="mt-7 max-w-2xl text-base md:text-lg text-muted-foreground leading-relaxed"
           data-testid="hero-sub"
         >
-          I'm Armash Ata — a senior full-stack & blockchain engineer partnering with USA
-          startups, founders and agencies to ship audited Web3 protocols, AI-native SaaS,
-          and high-performance product experiences. From napkin sketch to live launch.
+          I’m Musadiq Nawaz — an SEO Expert & Semantic SEO Specialist helping businesses
+          increase visibility, generate qualified leads, and grow revenue through
+          data-driven SEO strategies. From technical optimization to content strategy,
+          I build systems that turn websites into consistent lead-generation machines.
         </p>
 
         <div ref={ctaRef} className="mt-10 flex flex-wrap items-center gap-4">
@@ -130,8 +130,8 @@ export function Hero() {
             <div className="mt-1">Years building products</div>
           </div>
           <div>
-            <div className="font-display text-2xl text-foreground">$60M+</div>
-            <div className="mt-1">Moved on-chain by clients</div>
+            <div className="font-display text-2xl text-foreground">98%</div>
+            <div className="mt-1">Client Satisfaction</div>
           </div>
           <div>
             <div className="font-display text-2xl text-foreground">USA</div>

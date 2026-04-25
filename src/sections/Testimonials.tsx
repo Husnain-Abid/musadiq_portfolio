@@ -20,11 +20,11 @@ export function Testimonials() {
     <section id="testimonials" className="relative py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeading
-          eyebrow="What clients say"
-          title="Founders and operators on working with me."
-          description="Worked with startups & agencies globally — from YC-backed founders to design-led NYC studios."
-          align="center"
-        />
+  eyebrow="Client Results"
+  title="What clients say about my SEO work."
+  description="I’ve helped businesses improve rankings, increase organic traffic, and generate consistent leads through proven SEO strategies."
+  align="center"
+/>
         <div className="mt-16 relative mx-auto max-w-4xl">
           <div className="overflow-hidden rounded-3xl glass">
             <div

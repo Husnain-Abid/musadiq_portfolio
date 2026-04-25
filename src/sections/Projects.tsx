@@ -47,12 +47,12 @@ export function Projects() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <SectionHeading
-            eyebrow="Selected Work"
-            title="A few things I've shipped recently."
-            description="Six projects that show the range — DeFi, AI SaaS, mobile fintech, healthcare and Web3 social. Tap any to see the problem, solution and outcome."
+            eyebrow="SEO Case Studies"
+            title="Real results from real SEO projects."
+            description="A selection of SEO campaigns where I improved rankings, increased organic traffic, and generated qualified leads through data-driven strategies."
           />
           <div className="text-xs uppercase tracking-[0.22em] text-muted-foreground">
-            2023 — 2025
+            SEO Projects Portfolio
           </div>
         </div>
 
@@ -61,9 +61,8 @@ export function Projects() {
             <button
               key={p.slug}
               onClick={() => setActive(p)}
-              className={`project-card group relative block overflow-hidden rounded-3xl glass text-left ${
-                i % 3 === 0 ? "md:col-span-2" : ""
-              }`}
+              className={`project-card group relative block overflow-hidden rounded-3xl glass text-left ${i % 3 === 0 ? "md:col-span-2" : ""
+                }`}
               data-cursor="hover"
               data-testid={`project-${p.slug}`}
             >
