@@ -103,9 +103,9 @@ export function Contact() {
                   </div>
                   <h3 className="mt-6 font-display text-2xl font-bold">Message received.</h3>
                   <p className="mt-3 max-w-md text-sm text-muted-foreground leading-relaxed">
-  Thanks {form.name.split(" ")[0]}. I’ll review your website and send you a
-  personalized SEO strategy within 24 hours.
-</p>
+                    Thanks {form.name.split(" ")[0]}. I’ll review your website and send you a
+                    personalized SEO strategy within 24 hours.
+                  </p>
                 </div>
               ) : (
                 <form onSubmit={onSubmit} className="relative space-y-5" data-testid="contact-form">
@@ -143,10 +143,10 @@ export function Contact() {
                       data-testid="input-budget"
                     >
                       <option value="">Select your monthly SEO budget</option>
-<option>Under $500</option>
-<option>$500 – $1,000</option>
-<option>$1,000 – $3,000</option>
-<option>$3,000+</option>
+                      <option>Under $500</option>
+                      <option>$500 – $1,000</option>
+                      <option>$1,000 – $3,000</option>
+                      <option>$3,000+</option>
                     </select>
                   </div>
                   <div>
@@ -163,8 +163,8 @@ export function Contact() {
                       onChange={update("message")}
                       placeholder="Tell me about your business, current SEO issues, and goals (e.g., more traffic, leads, or local rankings)..."
                       className={`mt-2 w-full rounded-2xl bg-white/[0.03] border px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/20 transition resize-none ${errors.message
-                          ? "border-destructive/60 focus:border-destructive"
-                          : "border-white/10 focus:border-primary/50"
+                        ? "border-destructive/60 focus:border-destructive"
+                        : "border-white/10 focus:border-primary/50"
                         }`}
                       data-testid="input-message"
                     />
@@ -174,8 +174,8 @@ export function Contact() {
                   </div>
                   <div className="flex items-center justify-between gap-4 pt-2">
                     <p className="text-xs text-muted-foreground">
-  I reply within 24 hours with a clear SEO action plan.
-</p>
+                      I reply within 24 hours with a clear SEO action plan.
+                    </p>
                     <MagneticButton
                       onClick={() => {
                         const f = document.querySelector(
