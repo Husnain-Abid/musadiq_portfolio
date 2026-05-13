@@ -30,7 +30,7 @@ export function FloatingChat() {
               AA
             </div>
             <div>
-              <div className="text-sm font-medium">Armash Ata</div>
+              <div className="text-sm font-medium">Musadiq Nawaz</div>
               <div className="text-xs text-muted-foreground flex items-center gap-1.5">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
                 Usually replies in a few hours
@@ -42,7 +42,7 @@ export function FloatingChat() {
             For faster response, mention your timeline.
           </div>
           <a
-            href="mailto:armash@armashata.dev?subject=New%20project%20inquiry"
+            href="mailto:musadiq@musadiqnawaz.dev?subject=New%20project%20inquiry"
             className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90"
             data-testid="floating-chat-email"
           >
