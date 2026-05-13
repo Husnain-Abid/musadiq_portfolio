@@ -27,7 +27,7 @@ export function FloatingChat() {
         >
           <div className="flex items-center gap-3">
             <div className="grid h-10 w-10 place-items-center rounded-full bg-primary/15 text-primary font-display font-bold">
-              AA
+              MN
             </div>
             <div>
               <div className="text-sm font-medium">Musadiq Nawaz</div>
