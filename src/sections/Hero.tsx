@@ -126,11 +126,11 @@ export function Hero() {
           className="mt-16 grid max-w-2xl grid-cols-3 gap-8 text-sm text-muted-foreground"
         >
           <div>
-            <div className="font-display text-2xl text-foreground">7+</div>
-            <div className="mt-1">Years building products</div>
+            <div className="font-display text-2xl text-foreground">3</div>
+            <div className="mt-1">months building products</div>
           </div>
           <div>
-            <div className="font-display text-2xl text-foreground">98%</div>
+            <div className="font-display text-2xl text-foreground">100%</div>
             <div className="mt-1">Client Satisfaction</div>
           </div>
           <div>

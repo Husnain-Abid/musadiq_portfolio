@@ -8,10 +8,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const STATS = [
-  { label: "Projects Completed", to: 55, suffix: "+" },
+  { label: "Projects Completed", to: 4, suffix: "+" },
   { label: "Client Satisfaction", to: 98, suffix: "%" },
-  { label: "Cities Covered", to: 50, suffix: "+" },
-  { label: "Years Experience", to: 1, suffix: "+" },
+  { label: "SEO Campaigns Optimized", to: 12, suffix: "+" },
+  { label: "Months Experience", to: 3, suffix: "+" },
 ];
 
 

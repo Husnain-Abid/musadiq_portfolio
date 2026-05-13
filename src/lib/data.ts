@@ -18,8 +18,7 @@ export const PROJECTS: Project[] = [
     title: "Ash & Co Interiors",
     category: "Local SEO",
     year: "2024",
-    cover:
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=80",
+    cover: "/picture2.png",
     tagline: "Local SEO & website optimization for interior design brand",
     stack: ["Local SEO", "On-Page SEO", "WordPress", "Content Strategy"],
     problem:
@@ -29,13 +28,13 @@ export const PROJECTS: Project[] = [
     outcome:
       "Improved Google rankings, increased organic traffic, and generated consistent client inquiries.",
   },
+
   {
     slug: "strella-pa",
     title: "Strella PA",
     category: "Technical + Local SEO",
     year: "2024",
-    cover:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80",
+    cover: "/picture1.png",
     tagline: "SEO audit & ranking optimization for cosmetic clinic",
     stack: ["SEO Audit", "Technical SEO", "GMB Optimization", "Lead Generation"],
     problem:
@@ -45,6 +44,7 @@ export const PROJECTS: Project[] = [
     outcome:
       "Significant boost in local rankings and steady increase in qualified leads.",
   },
+
   {
     slug: "imove-alabama",
     title: "iMove Alabama",
@@ -63,21 +63,22 @@ export const PROJECTS: Project[] = [
   },
 
   {
-  slug: "nova-dental-seo",
-  title: "Nova Dental Clinic",
-  category: "Local SEO",
-  year: "2025",
-  cover:
-    "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1600&q=80",
-  tagline: "Local SEO growth for dental clinic",
-  stack: ["Local SEO", "Google Maps SEO", "Content Strategy", "Analytics"],
-  problem:
-    "Clinic was not appearing in top local search results for high-value dental services.",
-  solution:
-    "Optimized service pages, improved Google Maps ranking, and built local citations across directories.",
-  outcome:
-    "Top 3 rankings for primary keywords and consistent patient bookings.",
-},
+    slug: "nova-dental-seo",
+    title: "Nova Dental Clinic",
+    category: "Local SEO",
+    year: "2025",
+    cover:
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1600&q=80",
+    tagline: "Local SEO growth for dental clinic",
+    stack: ["Local SEO", "Google Maps SEO", "Content Strategy", "Analytics"],
+    problem:
+      "Clinic was not appearing in top local search results for high-value dental services.",
+    solution:
+      "Optimized service pages, improved Google Maps ranking, and built local citations across directories.",
+    outcome:
+      "Top 3 rankings for primary keywords and consistent patient bookings.",
+  },
+
   {
     slug: "elite-law-seo",
     title: "Elite Law Firm",
@@ -94,6 +95,7 @@ export const PROJECTS: Project[] = [
     outcome:
       "Doubled organic traffic and improved keyword rankings across competitive terms.",
   },
+
   {
     slug: "bright-smiles-seo",
     title: "Bright Smiles Dental",
@@ -109,6 +111,27 @@ export const PROJECTS: Project[] = [
       "Optimized website structure, improved local SEO signals, and enhanced call-to-action flow for conversions.",
     outcome:
       "Steady growth in organic traffic and increased appointment bookings.",
+  },
+
+  {
+    slug: "packaging-peers",
+    title: "Packaging Peers",
+    category: "SEO & WordPress Development",
+    year: "2025",
+    cover: "/picture3.png",
+    tagline: "SEO optimization & WordPress website for packaging company",
+    stack: [
+      "NextJs",
+      "On-Page SEO",
+      "Technical SEO",
+      "Content Optimization",
+    ],
+    problem:
+      "The company had limited online visibility and an outdated website that was not optimized for search engines or conversions.",
+    solution:
+      "Developed a modern WordPress website, optimized service pages with targeted keywords, improved technical SEO, and enhanced website performance.",
+    outcome:
+      "Improved search visibility, better user experience, and increased business inquiries through organic traffic.",
   },
 ];
 
@@ -185,6 +208,17 @@ export const SERVICES: Service[] = [
       "Action plan",
     ],
   },
+  {
+    title: "WordPress Website Development",
+    description:
+      "Create fast, modern, and SEO-friendly WordPress websites designed for performance, user experience, and business growth.",
+    bullets: [
+      "Responsive website design",
+      "Elementor & custom WordPress setup",
+      "SEO-friendly website structure",
+      "Speed & performance optimization",
+    ],
+  }
 ];
 
 export type Testimonial = {
@@ -198,23 +232,23 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     quote:
       "Musadiq transformed our SEO completely. We started getting consistent leads from Google within months.",
-    name: "Sarah Khan",
+    name: "Ash",
     role: "Business Owner",
     company: "Ash & Co Interiors",
   },
   {
     quote:
       "Our local rankings improved significantly and we now receive regular inquiries through Google Maps.",
-    name: "Ali Raza",
-    role: "Marketing Manager",
+    name: "Kruti",
+    role: "Owner",
     company: "Strella PA",
   },
   {
     quote:
       "Highly professional and detail-oriented. Fixed technical SEO issues and improved both traffic and conversions.",
-    name: "John Mitchell",
-    role: "Operations Manager",
-    company: "iMove Alabama",
+    name: "Uzair Asad",
+    role: "Owner",
+    company: "Packaging Peers",
   },
   {
     quote:
