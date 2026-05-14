@@ -46,74 +46,6 @@ export const PROJECTS: Project[] = [
   },
 
   {
-    slug: "imove-alabama",
-    title: "iMove Alabama",
-    category: "Local SEO",
-    year: "2024",
-    cover:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Local SEO strategy for moving company",
-    stack: ["Keyword Research", "On-Page SEO", "Local Pages", "WordPress"],
-    problem:
-      "Highly competitive moving niche with almost no organic visibility.",
-    solution:
-      "Created location-based landing pages, improved site structure, and optimized for high-intent local keywords.",
-    outcome:
-      "Higher Google rankings and consistent inbound customer inquiries.",
-  },
-
-  {
-    slug: "nova-dental-seo",
-    title: "Nova Dental Clinic",
-    category: "Local SEO",
-    year: "2025",
-    cover:
-      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Local SEO growth for dental clinic",
-    stack: ["Local SEO", "Google Maps SEO", "Content Strategy", "Analytics"],
-    problem:
-      "Clinic was not appearing in top local search results for high-value dental services.",
-    solution:
-      "Optimized service pages, improved Google Maps ranking, and built local citations across directories.",
-    outcome:
-      "Top 3 rankings for primary keywords and consistent patient bookings.",
-  },
-
-  {
-    slug: "elite-law-seo",
-    title: "Elite Law Firm",
-    category: "SEO Strategy",
-    year: "2025",
-    cover:
-      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=80",
-    tagline: "SEO strategy for legal firm growth",
-    stack: ["SEO Strategy", "Content Marketing", "Technical SEO", "Link Building"],
-    problem:
-      "Law firm struggled with organic traffic and high competition in legal niche.",
-    solution:
-      "Built authority-focused content strategy, optimized practice area pages, and executed targeted backlink campaigns.",
-    outcome:
-      "Doubled organic traffic and improved keyword rankings across competitive terms.",
-  },
-
-  {
-    slug: "bright-smiles-seo",
-    title: "Bright Smiles Dental",
-    category: "Local SEO",
-    year: "2025",
-    cover:
-      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1600&q=80",
-    tagline: "SEO & lead generation for dental practice",
-    stack: ["Local SEO", "On-Page SEO", "Conversion Optimization", "GMB"],
-    problem:
-      "Low visibility in local search results and weak online lead generation.",
-    solution:
-      "Optimized website structure, improved local SEO signals, and enhanced call-to-action flow for conversions.",
-    outcome:
-      "Steady growth in organic traffic and increased appointment bookings.",
-  },
-
-  {
     slug: "packaging-peers",
     title: "Packaging Peers",
     category: "SEO & WordPress Development",
@@ -153,17 +85,7 @@ export const SERVICES: Service[] = [
       "Internal linking structure",
     ],
   },
-  {
-    title: "Technical SEO",
-    description:
-      "Fix technical issues that impact your rankings and website performance.",
-    bullets: [
-      "Website speed optimization",
-      "Mobile responsiveness",
-      "Indexing & crawling fixes",
-      "Sitemap & robots.txt setup",
-    ],
-  },
+  
   {
     title: "Semantic SEO Strategy",
     description:
@@ -173,17 +95,6 @@ export const SERVICES: Service[] = [
       "Entity optimization",
       "Search intent mapping",
       "Content structuring",
-    ],
-  },
-  {
-    title: "Off-Page SEO & Link Building",
-    description:
-      "Increase authority and trust through high-quality backlinks and brand mentions.",
-    bullets: [
-      "Backlink strategy",
-      "Guest posting",
-      "Citation building",
-      "Authority growth",
     ],
   },
   {
