@@ -170,7 +170,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     quote:
-      "Highly professional and detail-oriented. Fixed technical SEO issues and improved both traffic and conversions.",
+      "Highly professional and detail-oriented. Fixed On-Page SEO issues and improved both traffic and conversions.",
     name: "Uzair Asad",
     role: "Owner",
     company: "Packaging Peers",
