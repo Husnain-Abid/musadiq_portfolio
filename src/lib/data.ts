@@ -16,56 +16,70 @@ export const PROJECTS: Project[] = [
   {
     slug: "ash-co-interiors",
     title: "Ash & Co Interiors",
-    category: "Local SEO",
+    category: "Local SEO & Content Optimization ",
     year: "2024",
     cover: "/picture2.png",
-    tagline: "Local SEO & website optimization for interior design brand",
-    stack: ["Local SEO", "On-Page SEO", "WordPress", "Content Strategy"],
+    tagline: "SEO growth strategy for interior design brand",
+    stack: [
+      "On-Page SEO",
+      "Keyword Research",
+      "Semantic SEO",
+      "Content Strategy",
+      "GBP Optimization",
+    ],
     problem:
-      "The business had low visibility on Google and was not generating consistent leads from organic search.",
+      "The business had low Google visibility and was not attracting consistent organic leads from local searches.",
     solution:
-      "Built a high-converting WordPress site, optimized service pages with targeted keywords, and implemented multi-city local SEO strategy.",
+      "Optimized service pages with targeted keywords, implemented semantic SEO structure, improved Google Business Profile, and created a strong content strategy for local search intent.",
     outcome:
-      "Improved Google rankings, increased organic traffic, and generated consistent client inquiries.",
+      "Increased organic visibility, improved keyword rankings, and generated steady client inquiries through Google search.",
   },
 
   {
     slug: "strella-pa",
     title: "Strella PA",
-    category: "Technical + Local SEO",
+    category: "On-Page SEO & Semantic SEO ",
     year: "2024",
     cover: "/picture1.png",
-    tagline: "SEO audit & ranking optimization for cosmetic clinic",
-    stack: ["SEO Audit", "Technical SEO", "GMB Optimization", "Lead Generation"],
+    tagline: "SEO optimization for cosmetic clinic growth",
+    stack: [
+      "On-Page SEO",
+      "Keyword Research",
+      "GBP Optimization",
+      "Content Strategy",
+      "Semantic SEO",
+    ],
     problem:
-      "Website had technical SEO issues, weak local presence, and poor conversion rates.",
+      "The clinic had weak local visibility, under-optimized service pages, and low lead generation from search traffic.",
     solution:
-      "Performed full technical audit, fixed indexing issues, optimized Google Business Profile, and improved content structure.",
+      "Improved website content structure, optimized location-based keywords, enhanced Google Business Profile, and implemented semantic SEO for better topical relevance.",
     outcome:
-      "Significant boost in local rankings and steady increase in qualified leads.",
+      "Boosted local rankings, increased qualified traffic, and improved conversion rates from organic visitors.",
   },
 
   {
     slug: "packaging-peers",
     title: "Packaging Peers",
-    category: "SEO & WordPress Development",
+    category: "SEO & Content Strategy",
     year: "2025",
     cover: "/picture3.png",
-    tagline: "SEO optimization & WordPress website for packaging company",
+    tagline: "Search optimization strategy for packaging company",
     stack: [
-      "NextJs",
       "On-Page SEO",
-      "Technical SEO",
+      "Keyword Research",
+      "Semantic SEO",
       "Content Optimization",
+      "GBP Optimization",
     ],
     problem:
-      "The company had limited online visibility and an outdated website that was not optimized for search engines or conversions.",
+      "The company had low online visibility and service pages that were not optimized for search intent or lead generation.",
     solution:
-      "Developed a modern WordPress website, optimized service pages with targeted keywords, improved technical SEO, and enhanced website performance.",
+      "Created optimized SEO content, improved keyword targeting, implemented semantic SEO structure, and enhanced Google Business Profile visibility.",
     outcome:
-      "Improved search visibility, better user experience, and increased business inquiries through organic traffic.",
+      "Improved keyword rankings, stronger organic presence, and increased business inquiries through search traffic.",
   },
 ];
+
 
 export type Service = {
   title: string;
